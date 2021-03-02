@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@300&display=swap');
+
+
+.countdown-value {
+    font-size: 4em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.countdown-label {
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.countdown-title{
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+}
+.countdown-clock{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.countdown-value-container{
+    font-family: 'Montserrat', 'sans-serif';
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+@media (max-width: 800px) {
+    .countdown-container{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 100%;
+        
+    }
+    .countdown-value{
+        font-size: 2em;
+    }
+    .countdown-label{
+        font-size: 1em;
+    }
+    .countdown-clock{
+        max-width: 80vw;
+    }
+}
+@media (min-width: 800px){
+    .countdown-container{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+

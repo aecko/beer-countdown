@@ -1,0 +1,33 @@
+@media (max-width: 800px) {
+  .AppGrid {
+    overflow-x: hidden; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  .AppGrid {
+    display: grid;
+    height: 93vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Header Header SideHeader"
+      "Main1 Main2 Main3";
+  }
+  .Header { grid-area: Header; }
+  .SideHeader { grid-area: SideHeader; }
+  .Main1 { grid-area: Main1; }
+  .Main2 { grid-area: Main2; }
+  .Main3 { grid-area: Main3; }
+}
+
+
+
+
