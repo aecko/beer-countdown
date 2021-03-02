@@ -13,4 +13,4 @@ npm start
 ## Screenshot of website
 ![screen shot](https://i.imgur.com/7VG9Z0u.png)
 
-Link to website: [Beer Countdown UK](beercountdown.co.uk)
+Link to website: [Beer Countdown UK](https://beercountdown.co.uk)
