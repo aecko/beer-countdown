@@ -1,5 +1,4 @@
-import react from 'react'
-import reactdom from 'react-dom'
+import React from 'react'
 import CountdownTimer from './CountdownTimer'
 import CountdownTitle from './CountdownTitle'
 

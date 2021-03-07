@@ -20,6 +20,7 @@ body {
   margin-top: 2vh;
   width: 400px;
   text-align: center;
+  font-size: 0.9em;
 }
 
 .social-icons {
@@ -154,5 +155,15 @@ body {
       }
       .sidebar-header{
         margin-top: 1em;
+      }
+      .menu-title{
+        font-size: 1.2em;
+        margin-top: 0.6em;
+      }
+      .sidebar-items{
+        font-size: 1em;
+      }
+      .social-container {
+        font-size: 1em;
       }
   }

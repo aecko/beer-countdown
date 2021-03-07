@@ -1,5 +1,4 @@
-import react from 'react'
-import ReactDom from 'react-dom'
+import React from 'react'
 import '../css/Timer.css'
 
 export default function CountdownTitle({title}){

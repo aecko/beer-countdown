@@ -1,5 +1,4 @@
-import react, { useState } from 'react'
-import reactdom from 'react-dom'
+import React, {useState} from 'react'
 import '../css/NavBar.scss'
 import SideBarMenu from './SideBarMenu'
 

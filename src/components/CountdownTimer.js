@@ -1,5 +1,4 @@
-import react from 'react'
-import ReactDom from 'react-dom'
+import React from 'react'
 import Countdown from 'react-countdown';
 import CountdownValue from './CountdownValue';
 import '../css/Timer.css'
