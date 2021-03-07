@@ -1,6 +1,6 @@
 import react, { useState } from 'react'
 import reactdom from 'react-dom'
-import '../css/NavBar.css'
+import '../css/NavBar.scss'
 import SideBarMenu from './SideBarMenu'
 
 export default function NavBar() {
