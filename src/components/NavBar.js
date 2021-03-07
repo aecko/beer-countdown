@@ -9,6 +9,7 @@ export default function NavBar() {
             <button onClick={()=> setShowSideBar(true)}>☰</button>
             {showSideBar ? <SideBarMenu showSideBar={setShowSideBar}/> : null}
             <h1>Beer Countdown</h1>
+            <button className='hidden'>☰</button>
         </div>
     )
 }

@@ -8,6 +8,7 @@ export default function SideBarMenu({ showSideBar }) {
             <div className='sidebar-header'>
                 <button className="menu-close-button" onClick={() => showSideBar(false)}>X</button>
                 <p className="menu-title">Beer Countdown</p>
+                <button className='hidden' >X</button>
             </div>
             <div className='sidebar-items'>
                 <p>Created By Seamus Harkin</p>
@@ -18,6 +19,7 @@ export default function SideBarMenu({ showSideBar }) {
                         <li><a href="https://github.com/aecko" target="_blank"><i class="fa fa-github"></i></a></li>
                     </ul>
                 </div>
+                <p>Disclaimer: These dates are NOT updated in real time with government announcements.</p>
             </div>
         </div>
     )
